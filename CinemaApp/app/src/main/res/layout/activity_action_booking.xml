@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".booking.ActionBooking"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/bookingAP"
+                android:layout_width="210dp"
+                android:layout_height="255dp"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/bookingAtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <ImageButton
+                android:id="@+id/add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ic_baseline_add_box_24"
+                android:text="Add" />
+
+            <TextView
+                android:id="@+id/bookingdescAP"
+                android:layout_width="350dp"
+                android:layout_height="250dp"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+
+    <!--    <TextView-->
+<!--        android:id="@+id/bookingdescAP"-->
+<!--        android:layout_width="269dp"-->
+<!--        android:layout_height="141dp"-->
+<!--        android:layout_marginTop="44dp"-->
+<!--        android:text="TextView"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/bookingAP" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/actionTotalCost"-->
+<!--        android:layout_width="95dp"-->
+<!--        android:layout_height="33dp"-->
+<!--        android:layout_marginTop="89dp"-->
+<!--        android:layout_marginEnd="28dp"-->
+<!--        android:layout_marginBottom="61dp"-->
+<!--        app:layout_constraintBottom_toTopOf="@+id/actionBuy"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/bookingdescAP"-->
+<!--        app:layout_constraintVertical_bias="1.0" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/actionQuan"-->
+<!--        android:layout_width="63dp"-->
+<!--        android:layout_height="47dp"-->
+<!--        android:layout_marginEnd="8dp"-->
+<!--        android:layout_marginBottom="188dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/actionPlus" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/actionPlus"-->
+<!--        android:layout_width="66dp"-->
+<!--        android:layout_height="44dp"-->
+<!--        android:layout_marginEnd="184dp"-->
+<!--        android:layout_marginBottom="184dp"-->
+<!--        android:onClick="increase"-->
+<!--        android:text="Button"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/actionMinus"-->
+<!--        android:layout_width="55dp"-->
+<!--        android:layout_height="46dp"-->
+<!--        android:layout_marginEnd="8dp"-->
+<!--        android:onClick="decrease"-->
+<!--        android:text="Button"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/actionQuan"-->
+<!--        app:layout_constraintHorizontal_bias="1.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.728" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/actionBuy"-->
+<!--        android:layout_width="189dp"-->
+<!--        android:layout_height="81dp"-->
+<!--        android:layout_marginBottom="48dp"-->
+<!--        android:text="Button"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_reviews"
+        android:title="Reviews"/>
+    <item
+        android:id="@+id/menu_maps"
+        android:title="Nearby Cinemas"/>
+    <item
+        android:id="@+id/menu_watchlist"
+        android:title="Search Movies"/>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Log Out"/>
+
+    <item android:title="Watchlist">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_viewBookings"
+                    android:title="View Watchlist"/>
+                <item
+                    android:id="@+id/nav_createBooking"
+                    android:title="Add to Watchlist"/>
+            </group>
+        </menu>
+
+    </item>
+
+</menu>

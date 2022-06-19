@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Cinema App</string>
+    <string name="youtubeAPI">AIzaSyCkww9Jl7RO7Dwb8jDdROHYLu97JNIwFUY</string>
+    <string name="playlistId">PL6tKg802I44IlniEWUBuwm8NOwSpT26BM</string>
+    <string name="channelId">UCjgTDENG1c93fWsGLtyVBGw</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="google_map_key">AIzaSyA0evSnrYfrGTwRG7xvHDSq-6TZ4D-wWHA</string>
+    <string name="places_key">AIzaSyC2PljsSN894cXLyhcdyrtiGsnNeIdgyuM</string>
+    <string name="title_activity_google_maps">GoogleMapsActivity</string>
+</resources>
